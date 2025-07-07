@@ -1120,7 +1120,7 @@ def business_chat_interface():
     with st.expander("💡 Example Questions"):
         st.markdown("""
         **Sentiment Analysis:**
-        - "What's the sentiment of reviews for product ABC123?"
+        - "What's the sentiment of reviews for product P004?"
         - "Which products have the most negative reviews?"
         - "Show me customer satisfaction trends"
         
