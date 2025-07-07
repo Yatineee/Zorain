@@ -210,7 +210,7 @@ class FAISSDatabase:
 
 # Page configuration
 st.set_page_config(
-    page_title="AIcumen AI",
+    page_title="Acumen AI",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -511,7 +511,7 @@ def generate_comprehensive_context(user_query: str = ""):
     context = """
     BUSINESS INTELLIGENCE DATA ANALYSIS CONTEXT:
     
-    You are a AIcumen AI with access to comprehensive business data including:
+    You are a Acumen AI with access to comprehensive business data including:
     1. Product Reviews Data
     2. Sales Data  
     3. Inventory Data
@@ -709,7 +709,7 @@ def display_data_overview():
 
 def main():
     # Main header
-    st.markdown('<h1 class="main-header">📊 AIcumen AI</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">📊 Acumen AI</h1>', unsafe_allow_html=True)
     
     # Sidebar for configuration
     with st.sidebar:
@@ -922,7 +922,7 @@ def main():
     else:
         # Show upload instructions
         st.markdown("""
-        ## 🚀 Welcome to AIcumen AI!
+        ## 🚀 Welcome to Acumen AI!
         
         To get started, please:
         1. **Initialize the AI Agent** in the sidebar with your GROQ API key
